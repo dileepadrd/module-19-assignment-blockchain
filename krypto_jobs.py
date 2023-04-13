@@ -174,6 +174,8 @@ st.sidebar.write(account.address)
 # Write the returned ether balance to the sidebar
 # YOUR CODE HERE
 
+st.sidebar.write(get_balance(account.address))
+
 ##########################################
 
 # Create a select box to chose a FinTech Hire candidate
